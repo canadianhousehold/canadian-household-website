@@ -397,8 +397,8 @@ function ContactPage() {
             </p>
             <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
               {[
-                { icon: "📞", label: "Phone", value: "1-800-CDN-HOME", sub: "Mon-Sat, 7AM - 8PM", color: C.blue },
-                { icon: "✉️", label: "Email", value: "info@canadianhousehold.ca", sub: "We respond within 24 hours", color: C.green },
+                { icon: "📞", label: "Phone", value: "1-343-304-4365", sub: "Mon-Sat, 7AM - 8PM", color: C.blue },
+                { icon: "✉️", label: "Email", value: "canadianhousehold@gmail.com", sub: "We respond within 24 hours", color: C.green },
                 { icon: "📍", label: "Head Office", value: "Ottawa-Gatineau, ON/QC", sub: "Serving 10 locations across Canada", color: C.yellow },
               ].map((item, i) => (
                 <div key={i} style={{ display: "flex", gap: 14, alignItems: "flex-start" }}>
@@ -423,7 +423,7 @@ function ContactPage() {
               <div style={{ width: 48, height: 48, borderRadius: 10, background: "rgba(255,255,255,0.15)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 22, flexShrink: 0 }}>🚨</div>
               <div>
                 <div style={{ fontSize: 16, color: "#fff", fontWeight: 700, fontFamily: "'Poppins', sans-serif" }}>24/7 Emergency Line</div>
-                <div style={{ fontSize: 20, color: "#fff", fontWeight: 800, fontFamily: "'Poppins', sans-serif" }}>1-800-CDN-ASAP</div>
+                <div style={{ fontSize: 20, color: "#fff", fontWeight: 800, fontFamily: "'Poppins', sans-serif" }}>1-343-304-4365</div>
                 <div style={{ fontSize: 12, color: "rgba(255,255,255,0.7)", fontFamily: "'Poppins', sans-serif" }}>Burst pipes, electrical faults, heating failures</div>
               </div>
             </div>
@@ -461,7 +461,7 @@ function ContactPage() {
                 width: "100%", padding: "14px", background: sending ? C.gray500 : C.red, color: "#fff",
                 border: "none", borderRadius: 8, fontSize: 14, fontWeight: 700,
                 cursor: sending ? "not-allowed" : "pointer", fontFamily: "'Poppins', sans-serif", transition: "all 0.3s",
-              }}>{sending ? "SENDING..." : "REQUEST VIRTUAL QUOTE"}</button>
+              }}>{sending ? "SENDING..." : "SEND"}</button>
               {error && <p style={{ fontSize: 13, color: C.red, textAlign: "center", margin: 0, fontFamily: "'Poppins', sans-serif" }}>{error}</p>}
               <p style={{ fontSize: 11, color: C.gray500, textAlign: "center", margin: 0, fontFamily: "'Poppins', sans-serif" }}>We'll respond within 24 hours. No spam, ever.</p>
             </div>
@@ -510,8 +510,8 @@ function Footer({ setPage }) {
           </div>
           <div>
             <h4 style={{ fontSize: 11, color: C.green, letterSpacing: 2, fontWeight: 700, margin: "0 0 14px", fontFamily: "'Poppins', sans-serif" }}>CONTACT</h4>
-            <div style={{ fontSize: 13, color: "rgba(255,255,255,0.45)", padding: "3px 0", fontFamily: "'Poppins', sans-serif" }}>1-800-CDN-HOME</div>
-            <div style={{ fontSize: 13, color: "rgba(255,255,255,0.45)", padding: "3px 0", fontFamily: "'Poppins', sans-serif" }}>info@canadianhousehold.ca</div>
+            <div style={{ fontSize: 13, color: "rgba(255,255,255,0.45)", padding: "3px 0", fontFamily: "'Poppins', sans-serif" }}>1-343-304-4365</div>
+            <div style={{ fontSize: 13, color: "rgba(255,255,255,0.45)", padding: "3px 0", fontFamily: "'Poppins', sans-serif" }}>canadianhousehold@gmail.com</div>
             <div style={{ fontSize: 13, color: "rgba(255,255,255,0.45)", padding: "3px 0", fontFamily: "'Poppins', sans-serif" }}>Ottawa-Gatineau, ON/QC</div>
           </div>
         </div>
